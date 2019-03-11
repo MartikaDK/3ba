@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ZWART WIT 2018",
-    "currentPage": "page5.html",
+    "currentPage": "page7.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -75,13 +75,13 @@
         "url": "https://fonts.googleapis.com/css?family=Amiri:400,400i,700,700i"
       }
     ],
-    "uniqCompNum": 48,
-    "versionPublish": "4.8.6",
+    "uniqCompNum": 50,
+    "versionPublish": "4.9.5",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/martika-kop-128x207.png",
-    "noImageResize": "true",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-126731112-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-126731112-1');\r\n</script>\r\n\r\n",
-    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
@@ -161,7 +161,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "CONTACT",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -268,7 +268,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "SCHETSEN",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -520,7 +520,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "OVER MIJ",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -611,7 +611,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "WERK",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -686,7 +686,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "BOEK",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -773,7 +773,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "HEDOESHEDOESNT",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1044,6 +1044,48 @@
               }
             ]
           }
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "meta_descr": "Site Creator Description",
+        "title": "Instgram",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "token": "827990641.727bfe1.2e081bc90a5d4990a5fd3203482c797a",
+            "showTitle": false,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": "2",
+            "rows": "4",
+            "showMoreButton": true,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": 4,
+            "spacing": "38",
+            "fullWidth": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColorRadio": true,
+            "bgColor": "#fafafa",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "Instagram Feed",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-1c"
         }
       ]
     }
