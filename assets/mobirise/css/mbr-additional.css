@@ -1469,6 +1469,14 @@ body {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-rkqFX39bml {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rkqFX39bml .media-container-row .mbr-text {
+  color: #232323;
+}
 .cid-r9RJMmPWNQ {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1743,4 +1751,12 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
+}
+.cid-rkqG0ygpH5 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rkqG0ygpH5 .media-container-row .mbr-text {
+  color: #232323;
 }
